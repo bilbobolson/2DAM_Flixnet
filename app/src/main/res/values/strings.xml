@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">flixnet</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+
+    <string name="btn_login">Entrar</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_perfil">Perfil</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_editar">Editar</string>
+    <string name="btn_borrar">Borrar</string>
+
+    <string name="err_registro">Se ha producido un error en el proceso de registro.</string>
+    <string name="err_email_pass">Los campos email y contraseña no pueden estar vacíos</string>
+    <string name="err_login">Email o contraseña incorrecta</string>
+
+    <string name="msg_bienvenida">Bienvenido/a %1$s</string>
+    <string name="msg_registro">El registro se ha realizado correctamente</string>
+
+    <!--<plurals name="totalElementos">
+        <item quantity="other">No hay elementos</item>
+        <item quantity="few">Hay %1$d elementos</item>
+    </plurals>-->
+</resources>
+
+
+
+
+
+
+
+
+
+
