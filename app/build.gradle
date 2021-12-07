@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'com.google.gms.google-services'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -36,13 +37,17 @@ android {
     }
 }
 
+ext {
+    roomVersion = "2.3.0"
+}
+
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
 
     // Constraint Layout
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
 
     // Material Design
     implementation 'com.google.android.material:material:1.4.0'
@@ -53,6 +58,13 @@ dependencies {
     // Importamos el servicio de autenticación de Firebase
     implementation 'com.google.firebase:firebase-auth-ktx'
 
+    // Importamos la librería ROOM
+    implementation "androidx.room:room-runtime:$roomVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
+
+    // Importamos la librería GLIDE
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 
     // Testing
     testImplementation 'junit:junit:4.+'

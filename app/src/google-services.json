@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "687916738691",
+    "project_id": "dam-a015f",
+    "storage_bucket": "dam-a015f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687916738691:android:bd77e93a6e0d5df8c7d3b6",
+        "android_client_info": {
+          "package_name": "com.pmdm.flixnet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687916738691-7fa1fuv4e2qm7ia98rb8d6s5ov8m8bp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pmdm.flixnet",
+            "certificate_hash": "00a9272592626c3586adf35b618a5fde0077aa06"
+          }
+        },
+        {
+          "client_id": "687916738691-3hmq2kn4bh28dlj4i2r478ivmc1l4qe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPsUQG3XuDsa6ncAxbUVy3eFBx18B0R-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687916738691-3hmq2kn4bh28dlj4i2r478ivmc1l4qe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

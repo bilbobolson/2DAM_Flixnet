@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Flixnet">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".ViewActivity"
             android:exported="false" />
-        <!-- LOGIN ACTIVITY -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" /> <!-- LOGIN ACTIVITY -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">

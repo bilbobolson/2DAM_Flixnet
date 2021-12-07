@@ -3,15 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
+        android:id="@+id/mnuSeries"
+        android:icon="@drawable/ic_pelicula"
+        android:title="@string/btn_series"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/mnuFavoritos"
+        android:icon="@drawable/ic_favoritos"
+        android:title="@string/btn_favoritos"
+        app:showAsAction="always|withText" />
+
+    <item
         android:id="@+id/mnuPerfil"
         android:title="@string/btn_perfil"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/mnuSalir"
         android:title="@string/btn_salir"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never" />
 
 </menu>

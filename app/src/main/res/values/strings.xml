@@ -3,6 +3,8 @@
 
     <string name="hint_email">Email</string>
     <string name="hint_password">Contraseña</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellidos">Apellidos</string>
 
     <string name="btn_login">Entrar</string>
     <string name="btn_registrar">Registrar</string>
@@ -10,6 +12,9 @@
     <string name="btn_salir">Salir</string>
     <string name="btn_editar">Editar</string>
     <string name="btn_borrar">Borrar</string>
+    <string name="btn_series">Series</string>
+    <string name="btn_favoritos">Favoritos</string>
+    <string name="btn_volver">Volver</string>
 
     <string name="err_registro">Se ha producido un error en el proceso de registro.</string>
     <string name="err_email_pass">Los campos email y contraseña no pueden estar vacíos</string>
@@ -17,6 +22,7 @@
 
     <string name="msg_bienvenida">Bienvenido/a %1$s</string>
     <string name="msg_registro">El registro se ha realizado correctamente</string>
+    <string name="msg_lorem">La contaminación permite controlar cuánto se invierte y cuál es el retorno. Las mayores amenazas a las que se ve sometida nuestra sociedad analizan aspectos tales como: la solidez, el plan estratégico, la idea, el equipo directivo y la estructura de la inversión a realizar. Al objeto de unificar criterios para adoptar las decisiones que se consideran relevantes, 1000 millones de usuarios al mes realizan el SEM, el SEO y el MEO para mejorar el page rank de la landing page.</string>
 
     <!--<plurals name="totalElementos">
         <item quantity="other">No hay elementos</item>
